@@ -18,7 +18,7 @@ uvicorn main:app --reload
 ```
 and wait until all files are downloaded.
 
-In root project open enother terminal and run
+In root project open another terminal and run
 ```bash
 cd frontend
 npm install
