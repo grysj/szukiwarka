@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  row-gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.search-bar {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.params {
+  display: flex;
+  column-gap: 10px;
+}
+
+.single-result {
+  height: 55px;
+  border: solid 1px #cccccc;
+  margin-top: 10px;
+  border-radius: 5px;
+  line-height: 55px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+span {
+  float: right;
+  padding-right: 20px;
+}
